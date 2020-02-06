@@ -4,7 +4,7 @@ Preference Form - Bootstrap 4
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Bootstrap Form</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -158,7 +158,7 @@ Preference Form - Bootstrap 4
   </div>
     
     <div class="form-group col-md-2">
-	<label for="state" class="col-md-4 control-label">State</label>
+	<label for="state" class="text-left">State</label>
 		<select class="form-control" id="state" name="state">
 			<option value="">N/A</option>
 			<option value="AK">Alaska</option>
@@ -277,4 +277,5 @@ Preference Form - Bootstrap 4
 
 </body>
 </html>
+
 
